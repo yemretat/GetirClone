@@ -29,7 +29,7 @@ function Main() {
   
     return (
       <Tab.Navigator
-        initialRouteName="Ana Sayfa"
+        initialRouteName="AnaSayfa"
         screenOptions={{
           tabBarHideOnKeyboard: true,
           tabBarShowLabel: false,
@@ -42,7 +42,7 @@ function Main() {
         }}
       >
         <Tab.Screen
-          name="Ana Sayfa"
+          name="AnaSayfa"
           component={HomeNavigator}
           options={{
             tabBarIcon: ({ color }) => (

@@ -17,10 +17,16 @@ const { height, width } = Dimensions.get("window");
 
 function index({
   cartItems,
+  route
 }: {
-  cartItems: { product: Product; quantity: number }[];
+  cartItems: { product: Product; quantity: number }[],route:any;
 }) {
   //const [cartItems,setCartItems] = useState<Product[]>()
+  const {
+    params: { message },
+  } = route;
+
+  console.log("Zınk route params are ",route.params)
   const [totalPrice, setTotalPrice] = useState<number>(0);
   const getProductsPrice = () => {
     let total = 0;

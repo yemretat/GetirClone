@@ -131,6 +131,8 @@ function MyStack({ navigation, route,cartItems,clearCart }:{cartItems:Product[],
         }}
       />
       <Stack.Screen
+        name="ProductDetails"
+        component={ProductDetailsScreen}
         options={{
           headerTintColor: "white",
           headerBackTitleVisible: false,
@@ -165,8 +167,6 @@ function MyStack({ navigation, route,cartItems,clearCart }:{cartItems:Product[],
             </TouchableOpacity>
           ),
         }}
-        name="ProductDetails"
-        component={ProductDetailsScreen}
       />
       <Stack.Screen 
         name="CartScreen"
