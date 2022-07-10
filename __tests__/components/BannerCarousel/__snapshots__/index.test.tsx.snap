@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/BannerCarousel renders correctly 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      "https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1629378026496.jpeg",
+      "https://cdn.getir.com/misc/621784419e62143ed76eef01_banner_tr_1645969386292.jpeg",
+      "https://cdn.getir.com/promos/6221aef965805c5b1e703845_banner_tr_1646723453154.jpeg",
+      "https://cdn.getir.com/misc/622a6d18b2e2fe3a8e809894_banner_tr_1646947639211.jpeg",
+    ]
+  }
+  decelerationRate="fast"
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onViewableItemsChanged={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
+  snapToInterval={750}
+  stickyHeaderIndices={Array []}
+  testID="banner-carousel"
+  updateCellsBatchingPeriod={50}
+  viewabilityConfig={
+    Object {
+      "viewAreaCoveragePercentThreshold": 50,
+    }
+  }
+  viewabilityConfigCallbackPairs={
+    Array [
+      Object {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": Object {
+          "viewAreaCoveragePercentThreshold": 50,
+        },
+      },
+    ]
+  }
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1629378026496.jpeg",
+          }
+        }
+        style={
+          Object {
+            "height": 320.15999999999997,
+            "resizeMode": "stretch",
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/misc/621784419e62143ed76eef01_banner_tr_1645969386292.jpeg",
+          }
+        }
+        style={
+          Object {
+            "height": 320.15999999999997,
+            "resizeMode": "stretch",
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/promos/6221aef965805c5b1e703845_banner_tr_1646723453154.jpeg",
+          }
+        }
+        style={
+          Object {
+            "height": 320.15999999999997,
+            "resizeMode": "stretch",
+            "width": 750,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/misc/622a6d18b2e2fe3a8e809894_banner_tr_1646947639211.jpeg",
+          }
+        }
+        style={
+          Object {
+            "height": 320.15999999999997,
+            "resizeMode": "stretch",
+            "width": 750,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

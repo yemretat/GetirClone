@@ -34,6 +34,7 @@ function index() {
       decelerationRate={"fast"}
       viewabilityConfig={viewConfigRef.current}
       onViewableItemsChanged={onViewRef.current}
+      testID="banner-carousel"
   /> 
 
 

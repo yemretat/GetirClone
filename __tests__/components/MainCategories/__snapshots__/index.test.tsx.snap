@@ -1,0 +1,906 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/MainCategories renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F5",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/5fd8c58f3bdc2389a56e0fb0_2b1a70ca-4a4a-4477-adf1-7414a476aff8.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        İndirimler
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c5e_1619242669958_1619242670038.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Su & İçecek
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/5928113e616cab00041ec6de_1619242870968_1619242871055.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Meyve & Sebze
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/566eeb85f9facb0f00b1cb16_1619242817768_1619242817849.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Fırından
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/56dfcfba86004203000a870d_1619242834654_1619242834734.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Temel Gıda
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/56dfe03cf82055030022cdc0_1619242841966_1619242842053.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Atıştırmalık
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/55bca8484dcda90c00e3aa80_1619242741382_1619242741482.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Dondurma
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/5cfe685e25d48100016b7ea6_b05535e0-a936-4c79-8d89-10db178a928c.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Süt Ürünleri
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/61a78ebbdea800061135fd19_1ae7279d-6ab8-4ee1-b58b-9a29695ad314.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Kahvaltılık
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c5d_1619242660025_1619242660107.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Yiyecek
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/57e2996551f3ee030027e28b_1619242858559_1619242858642.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Fit & Form
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c5c_1619242651249_1619242651335.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Kişisel Bakım
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c63_1619242711604_1619242711687.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Evcil Hayvan
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c5b_1619242620186_1619242620271.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Bebek
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/559c07b093be370c0063dd29_a16cbca7-4f5a-46fc-8f45-45d8e899f57d.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Cinsel Sağlık
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/55449fdf02632e11003c2da8_1619242719523_1619242719602.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Ev Bakım
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/551430043427d5010a3a5c62_1619242697597_1619242697702.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Teknoloji
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 180,
+          "justifyContent": "space-between",
+          "marginTop": 10,
+          "opacity": 1,
+          "width": 187.5,
+        }
+      }
+      testID="category-item"
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://cdn.getir.com/cat/5b06b056b883b700044e3e4c_1619242916956_1619242917048.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 10,
+            "height": 135,
+            "width": 135,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#616161",
+            "fontSize": 12,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Ev & Yaşam
+      </Text>
+    </View>
+  </View>
+</View>
+`;
