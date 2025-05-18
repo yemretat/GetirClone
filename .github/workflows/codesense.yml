@@ -1,0 +1,42 @@
+name: CodeSense Review Bot
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-pr-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR Repo
+        uses: actions/checkout@v3
+
+      - name: Clone Bot Repo
+        run: |
+          git clone https://${{ secrets.BOT_PAT }}@github.com/yemretat/CodeSense.git bot
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Bot Dependencies
+        run: |
+          cd bot
+          pip install -r requirements.txt
+
+      - name: Run Bot Logic
+        run: |
+          cd bot
+          python main.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
