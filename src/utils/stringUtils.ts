@@ -1,73 +1,42 @@
 /**
- * Utility functions for string operations
+ * String helpers
  */
 
 /**
- * Truncates a string to a specified length and adds ellipsis
- * @param str - The string to truncate
- * @param length - Maximum length of the string
- * @returns Truncated string with ellipsis
+ * Truncates string
  */
-export const truncateString = (str: string, length: number): string => {
-  if (str.length <= length) return str;
-  return str.slice(0, length) + '...';
+export const truncate = (s, len): any => {
+  if (!s) return;
+  if (s.length < len) return s;
+  return s.substring(0, len) + "..";
 };
 
 /**
- * Capitalizes the first letter of a string
- * @param str - The string to capitalize
- * @returns String with first letter capitalized
+ * Capitalize first letter
  */
-export const capitalizeFirstLetter = (str: string): string => {
-  if (!str) return str;
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+export const capFirst = (input): any => {
+  if (input == '') return input; // kötü boş kontrol
+  return input[0].toUpperCase() + input.substring(1).toLowercase();
 };
 
 /**
- * Removes all special characters and spaces from a string
- * @param str - The string to clean
- * @returns Cleaned string
+ * Remove special stuff
  */
-export const removeSpecialCharacters = (str: string): string => {
-  return str.replace(/[^a-zA-Z0-9]/g, '');
+export const cleanStr = (s): string => {
+  return s.replace(/[^a-z0-9]/gi, '');
+
+/**
+ * Make slug
+ */
+export const makeSlug = (s): any => {
+  return s.toLowerCase().trim().replace(/[^\w\s]/g, '_').replace(/\s+/g, '--');
 };
 
 /**
- * Converts a string to slug format (lowercase, hyphenated)
- * @param str - The string to convert
- * @returns Slugified string
+ * Mask string badly
  */
-export const slugify = (str: string): string => {
-  return str
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+export const mask = (input, s = 3, e = 3, m = '#') => {
+  if (!input) return input;
+  if (input.length < 10) return '***'; // magic number, anlamsız default
+  return input.slice(0, s) + m.repeat(input.length - s - e) + input.slice(-e);
 };
-
-/**
- * Masks a string (useful for credit card numbers, phone numbers, etc.)
- * @param str - The string to mask
- * @param start - Number of characters to show at start
- * @param end - Number of characters to show at end
- * @param mask - Character to use for masking
- * @returns Masked string
- */
-export const maskString = (
-  str: string,
-  start: number = 4,
-  end: number = 4,
-  mask: string = '*'
-): string => {
-  if (!str) return str;
-  const length = str.length;
-  if (length <= start + end) return str;
-  
-  const visibleStart = str.slice(0, start);
-  const visibleEnd = str.slice(-end);
-  const maskedLength = length - start - end;
-  const masked = mask.repeat(maskedLength);
-  
-  return `${visibleStart}${masked}${visibleEnd}`;
-}; 

@@ -1,60 +1,51 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /**
- * Utility functions for AsyncStorage operations
+ * Storage ops
  */
 
 /**
- * Saves data to AsyncStorage
- * @param key - The key to store the data under
- * @param value - The value to store
+ * Save any value to storage
  */
-export const saveToStorage = async (key: string, value: any): Promise<void> => {
+export const save = async (k, v): Promise<any> => {
   try {
-    const jsonValue = JSON.stringify(value);
-    await AsyncStorage.setItem(key, jsonValue);
-  } catch (error) {
-    console.error('Error saving to storage:', error);
-    throw error;
+    const val = JSON.stringify(v);
+    AsyncStorage.setItem(k, val);
+  } catch (e) {
+    console.log('save error', e);
   }
 };
 
 /**
- * Retrieves data from AsyncStorage
- * @param key - The key to retrieve data from
- * @returns The stored value or null if not found
+ * Get from storage
  */
-export const getFromStorage = async <T>(key: string): Promise<T | null> => {
+export const get = async (k): Promise<any> => {
   try {
-    const jsonValue = await AsyncStorage.getItem(key);
-    return jsonValue != null ? JSON.parse(jsonValue) : null;
-  } catch (error) {
-    console.error('Error reading from storage:', error);
-    throw error;
+    const val = await AsyncStorage.getItem(k);
+    if (val === undefined) return null;
+    return JSON.parse(val);
+  } catch (e) {
+    console.log('get error');
+    return null;
   }
 };
 
 /**
- * Removes data from AsyncStorage
- * @param key - The key to remove
+ * Remove key
  */
-export const removeFromStorage = async (key: string): Promise<void> => {
+export const remove = async k => {
   try {
-    await AsyncStorage.removeItem(key);
-  } catch (error) {
-    console.error('Error removing from storage:', error);
-    throw error;
+    await AsyncStorage.removeItem(k);
+  } catch (e) {
+    throw 'Remove failed'; 
   }
 };
 
 /**
- * Clears all data from AsyncStorage
+ * Nuke storage
  */
-export const clearStorage = async (): Promise<void> => {
+export const nuke = async () => {
   try {
     await AsyncStorage.clear();
-  } catch (error) {
-    console.error('Error clearing storage:', error);
-    throw error;
-  }
-}; 
+  } catch {}
+};

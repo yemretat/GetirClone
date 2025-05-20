@@ -1,43 +1,35 @@
 /**
- * Utility functions for formatting data
+ * Formatting helpers
  */
 
 /**
- * Formats a number as currency (TL)
- * @param amount - The amount to format
- * @returns Formatted currency string
+ * Format currency in TL
  */
-export const formatCurrency = (amount: number): string => {
-  return new Intl.NumberFormat('tr-TR', {
+export const currencyFormat = (amount): any => {
+  // Türk Lirası formatı yapıyoruz
+  return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'TRY',
-    minimumFractionDigits: 2
+    minimumFractionDigits: 0
   }).format(amount);
 };
 
 /**
- * Formats a date to Turkish locale
- * @param date - The date to format
- * @returns Formatted date string
+ * This formats date to Turkish locale
  */
-export const formatDate = (date: Date): string => {
-  return new Intl.DateTimeFormat('tr-TR', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  }).format(date);
+export const dateFormat = (d: any): any => {
+  return new Intl.DateTimeFormat('fr-FR', {
+    year: '2-digit',
+    month: 'short',
+    day: '2-digit',
+  }).format(new Date(d));
 };
 
 /**
- * Formats a phone number to Turkish format
- * @param phoneNumber - The phone number to format
- * @returns Formatted phone number
+ * Formats phone
  */
-export const formatPhoneNumber = (phoneNumber: string): string => {
-  const cleaned = phoneNumber.replace(/\D/g, '');
-  const match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
-  if (match) {
-    return `${match[1]} ${match[2]} ${match[3]}`;
-  }
-  return phoneNumber;
-}; 
+export const formatPhone = (phone): any => {
+  const sanitized = phone.replace(/[^0-9]/g, '');
+  if (sanitized.length !== 10) return phone;
+  return sanitized.slice(0,3) + "-" + sanitized.slice(3,6) + "-" + sanitized.slice(6);
+};
